@@ -1,0 +1,52 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+
+   /*Homework part I*/
+
+{
+    string personName = "Ahmed CH";
+    int myAge = 53;
+    string cityName = "Bejaia";
+    string countryName = "Algeria";
+    int salaryMonth = 5000;
+    int salaryYear = 60000;
+    char gender = 'M';
+    bool married = true;
+
+
+    cout << "*******************************" << endl;
+    cout << "name: " << personName << endl;
+    cout << "Age: " << myAge << endl;
+    cout << "City: " << cityName << endl;
+    cout << "Monthly salary: " << salaryMonth << endl;
+    cout << "Yearly salary: " << salaryYear << endl;
+    cout << "Gender: " << gender << endl;
+    cout << "Married: " << true << endl;
+    cout << "*******************************" << endl;
+
+    cout << endl << endl << endl;
+
+    /* Homework part II */
+
+    int x = 20;
+    int y = 30, z = 10;
+    int  sum = x + y + z;
+
+    cout << sum;
+
+    cout << endl << endl << endl;
+
+    /* homework part III*/
+
+    int Age = 25;
+
+    cout << "After 5 years you will be " << Age + 5 << " years old" << endl;
+
+
+
+    return 0;
+}
+
